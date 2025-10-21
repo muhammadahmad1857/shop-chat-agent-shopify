@@ -2,7 +2,7 @@
 
 client_id = "09683a59abc4e010987cd616c8abeb6a"
 name = "shop-chat-agent"
-application_url = "https://example.com"
+application_url = "https://shop-chat-agent-shopify-rust.vercel.app/"
 embedded = true
 
 [build]
@@ -16,4 +16,4 @@ api_version = "2026-01"
 scopes = "customer_read_customers,customer_read_orders,customer_read_store_credit_account_transactions,customer_read_store_credit_accounts,unauthenticated_read_product_listings"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://shop-chat-agent-shopify-rust.vercel.app/api/auth" ]
